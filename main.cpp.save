@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float f,c,k;
+    cout << "Program to change celcius to fahrenheit" << endl;
+    cout << "Temperature in celcius: ";
+    cin >>c;
+    f = (c*9/5)+32;
+    k = f + 273.15;
+    cout <<c<<" degree celcius is "<<f<<" fahrenheit" <<endl;
+    cout <<c<<" degree is "<<k<<" degree kelvin." <<endl;
+    return 0;
+}
